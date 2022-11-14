@@ -1,6 +1,18 @@
 class UsersController < ApplicationController
-    has_secure_password
 
-    validates :email, presence: true, uniqueness: true
-    validates :full_name, presence: true, uniqueness: true
+
+    def show 
+        user = User.find(params[:id])
+        render json: user, status: :ok
+    end
+
+    def create
+        user = User.create!(user_params)
+        render json: user, status: :created
+    end
+
+    private
+    def user_params
+        params.permit(:full_name, :user_name, :password, :email)
+    end
 end
