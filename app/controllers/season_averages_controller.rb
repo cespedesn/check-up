@@ -1,0 +1,2 @@
+class SeasonAveragesController < ApplicationController
+end
