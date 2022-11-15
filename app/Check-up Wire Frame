@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T15:52:21.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QoWB5MfxFgCPeOK668U8" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T22:55:59.345Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-DkBqhtp9lF9K72iEpWA" version="20.5.3" type="github">
   <diagram id="zFoyEVLHp1y46Wp2e1M6" name="Page-1">
-    <mxGraphModel dx="2549" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#182E3E" math="0" shadow="0">
+    <mxGraphModel dx="3965" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#182E3E" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,63 +164,51 @@
           <mxGeometry x="-280" y="590" width="660" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-6" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;username&lt;/li&gt;&lt;li&gt;password_digest&lt;/li&gt;&lt;li&gt;email&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="720" width="230" height="230" as="geometry" />
+          <mxGeometry x="-850" y="720" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-7" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;abbreviation&lt;/li&gt;&lt;li&gt;city&lt;/li&gt;&lt;li&gt;conference&lt;/li&gt;&lt;li&gt;division&lt;/li&gt;&lt;li&gt;full_name&lt;/li&gt;&lt;li&gt;name&lt;/li&gt;&lt;li&gt;user_id&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="720" width="230" height="230" as="geometry" />
+          <mxGeometry x="-330" y="720" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-8" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;id&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;first_name&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;last_name&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;position&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;height_feet&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;height_inches&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;weight_pounds&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;team&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;team_id&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="720" width="230" height="230" as="geometry" />
+          <mxGeometry x="-70" y="720" width="230" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-11" value="Users" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="720" width="230" height="30" as="geometry" />
+        <mxCell id="EVFqrUR9-hDyrFvlNdoy-11" value="User" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="720" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-12" value="Teams" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="720" width="230" height="30" as="geometry" />
+        <mxCell id="EVFqrUR9-hDyrFvlNdoy-12" value="Team" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="720" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-13" value="Players" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="720" width="230" height="30" as="geometry" />
+        <mxCell id="EVFqrUR9-hDyrFvlNdoy-13" value="Player" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="720" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-16" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;ast&lt;/li&gt;&lt;li&gt;blk&lt;/li&gt;&lt;li&gt;dreb&lt;/li&gt;&lt;li&gt;fg3_pct&lt;/li&gt;&lt;li&gt;fg3a&lt;/li&gt;&lt;li&gt;fg3m&lt;/li&gt;&lt;li&gt;fg_pct&lt;/li&gt;&lt;li&gt;fga&lt;/li&gt;&lt;li&gt;fgm&lt;/li&gt;&lt;li&gt;ft_pct&lt;/li&gt;&lt;li&gt;fta&lt;/li&gt;&lt;li&gt;ftm&lt;/li&gt;&lt;li&gt;player_id&lt;/li&gt;&lt;li&gt;season_average_id&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;align=left;" vertex="1" parent="1">
-          <mxGeometry x="10" y="720" width="290" height="290" as="geometry" />
+          <mxGeometry x="190" y="720" width="290" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-18" value="Stats" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="10" y="720" width="270" height="30" as="geometry" />
+        <mxCell id="EVFqrUR9-hDyrFvlNdoy-18" value="Stat" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="190" y="720" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-19" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;id&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="980" width="230" height="230" as="geometry" />
+          <mxGeometry x="-590" y="720" width="230" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-20" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Games&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=12;fontColor=#1A1A1A;fillColor=#EEEEEE;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="980" width="230" height="30" as="geometry" />
+        <mxCell id="EVFqrUR9-hDyrFvlNdoy-20" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;User_team&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=12;fontColor=#1A1A1A;fillColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="720" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-21" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;games_played&lt;/li&gt;&lt;li&gt;player_id&lt;/li&gt;&lt;li&gt;season&lt;/li&gt;&lt;li&gt;min&lt;/li&gt;&lt;li&gt;fgm&lt;/li&gt;&lt;li&gt;fga&lt;/li&gt;&lt;li&gt;fg3m&lt;/li&gt;&lt;li&gt;fg3a&lt;/li&gt;&lt;li&gt;ftm&lt;/li&gt;&lt;li&gt;fta&lt;/li&gt;&lt;li&gt;oreb&lt;/li&gt;&lt;li&gt;dreb&lt;/li&gt;&lt;li&gt;reb&lt;/li&gt;&lt;li&gt;ast&lt;/li&gt;&lt;li&gt;stl&lt;/li&gt;&lt;li&gt;blk&lt;/li&gt;&lt;li&gt;turnover&lt;/li&gt;&lt;li&gt;pf&lt;/li&gt;&lt;li&gt;pts&lt;/li&gt;&lt;li&gt;fg_pct&lt;/li&gt;&lt;li&gt;fg3_pct&lt;/li&gt;&lt;li&gt;ft_pct&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;align=left;" vertex="1" parent="1">
-          <mxGeometry x="340" y="720" width="390" height="390" as="geometry" />
+          <mxGeometry x="520" y="720" width="390" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-22" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Season Averages&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=12;fontColor=#1A1A1A;fillColor=#EEEEEE;" vertex="1" parent="1">
-          <mxGeometry x="345" y="720" width="380" height="30" as="geometry" />
+        <mxCell id="EVFqrUR9-hDyrFvlNdoy-22" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Season Average&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=12;fontColor=#1A1A1A;fillColor=#EEEEEE;" vertex="1" parent="1">
+          <mxGeometry x="525" y="720" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-24" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" target="EVFqrUR9-hDyrFvlNdoy-6">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-770" y="950" as="sourcePoint" />
-            <mxPoint x="-670" y="850" as="targetPoint" />
+            <mxPoint x="-850" y="950" as="sourcePoint" />
+            <mxPoint x="-750" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#FFFFFF;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" target="EVFqrUR9-hDyrFvlNdoy-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770" y="950" as="sourcePoint" />
-            <mxPoint x="-720" y="900" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontSize=24;fontColor=#FFFFFF;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770" y="1210" as="sourcePoint" />
-            <mxPoint x="-540" y="980" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontSize=24;fontColor=#FFFFFF;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="EVFqrUR9-hDyrFvlNdoy-19">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770" y="980" as="sourcePoint" />
-            <mxPoint x="-530" y="1192" as="targetPoint" />
+            <mxPoint x="-850" y="950" as="sourcePoint" />
+            <mxPoint x="-800" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-31" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;" vertex="1" parent="1">
@@ -244,20 +232,23 @@
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-38" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;" vertex="1" parent="1">
           <mxGeometry x="365" y="480" width="120" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-39" value="&lt;ul&gt;&lt;li&gt;has_many :players&lt;/li&gt;&lt;li&gt;has_many :stats, through: players&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="660" width="230" height="50" as="geometry" />
+        <mxCell id="EVFqrUR9-hDyrFvlNdoy-39" value="&lt;ul&gt;&lt;li&gt;has_many :user_teams&lt;/li&gt;&lt;li&gt;has_many :users, through: user_teams&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="660" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-40" value="&lt;ul&gt;&lt;li&gt;has_many :stats&lt;/li&gt;&lt;li&gt;has_many :season_average, through: stats&lt;/li&gt;&lt;li&gt;belongs_to :team&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="660" width="230" height="50" as="geometry" />
+          <mxGeometry x="-70" y="660" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-41" value="&lt;ul&gt;&lt;li&gt;belongs_to :players&lt;/li&gt;&lt;li&gt;belongs_to :season_average&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;align=left;" vertex="1" parent="1">
-          <mxGeometry x="10" y="660" width="270" height="50" as="geometry" />
+          <mxGeometry x="190" y="660" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EVFqrUR9-hDyrFvlNdoy-42" value="&lt;ul&gt;&lt;li&gt;has_many :stats&lt;/li&gt;&lt;li&gt;has_many :players, through: stats&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;align=left;" vertex="1" parent="1">
-          <mxGeometry x="340" y="660" width="390" height="50" as="geometry" />
+          <mxGeometry x="520" y="660" width="390" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EVFqrUR9-hDyrFvlNdoy-44" value="&lt;ul&gt;&lt;li&gt;has_many :teamss&lt;/li&gt;&lt;li&gt;has_many :players, through: teams&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="660" width="230" height="50" as="geometry" />
+        <mxCell id="EVFqrUR9-hDyrFvlNdoy-44" value="&lt;ul&gt;&lt;li&gt;has_many :user_teams&lt;/li&gt;&lt;li&gt;has_many :teams, through: user_teams&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="660" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVFqrUR9-hDyrFvlNdoy-46" value="&lt;ul&gt;&lt;li&gt;belongs_to :user&lt;/li&gt;&lt;li&gt;belongs_to :team&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontSize=10;fontColor=#1A1A1A;fillColor=#EEEEEE;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="660" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
