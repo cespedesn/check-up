@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar';
+import HomePage from './HomePage';
+import StatsFaceOffPage from './StatsFaceOffPage';
+import VersusPage from './VersusPage';
+import LoginPage from './LoginPage';
+import SchedulePage from './SchedulePage';
+import Footer from './Footer';
+import { Routes, Route } from "react-router-dom"
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Routes>
+        <Route path= "/" element={<HomePage />} />
+        <Route path= "/statsfaceoffpage" element={<StatsFaceOffPage />} />
+        <Route path= "/versuspage" element={<VersusPage />} />
+        <Route path= "/loginpage" element={<LoginPage />} />
+        <Route path= "/schedulepage" element={<SchedulePage />} />
+        <Route path= "/footer" element={<Footer />} />
+      </Routes>
     </div>
   );
 }

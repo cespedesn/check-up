@@ -50,4 +50,4 @@ end
 
 gem "active_model_serializers", "~> 0.10.12"
 
-gem 'exception_handler', '~> 0.8.0.0'
+# gem 'exception_handler', '~> 0.8.0.0'

@@ -7,7 +7,7 @@ class CreateTeams < ActiveRecord::Migration[6.1]
       t.string :division
       t.string :full_name
       t.string :name
-      t.belongs_to :user, null: false, foreign_key: true
+      
 
       t.timestamps
     end
