@@ -1,14 +1,21 @@
 class UsersController < ApplicationController
-
-
-    def show 
-        user = User.find(params[:id])
-        render json: user, status: :ok
-    end
-
+skip_before_action :authorized, only: [:create, :show]
     def create
         user = User.create!(user_params)
-        render json: user, status: :created
+        if user.valid?
+            render json: user, status: :created
+        else
+            render json: { errors: user.errors.full_messages }, status: :unprocessable_entity
+        end
+    end
+
+    def show 
+        current_user = User.find_by(id:session[:user_id])
+        if current_user
+            render json: current_user, status: :ok
+        else
+            render json: { error: "Not authorized" }, status: :unauthorized
+        end
     end
 
     private

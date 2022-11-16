@@ -25,4 +25,11 @@ code {
 
 .twitter-timeline {
   float: right;
+  border-radius: 50px;
+  
+}
+
+.twitter-section {
+  border-radius: 70px;
+  margin-right: 10px;
 }
