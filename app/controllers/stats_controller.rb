@@ -5,6 +5,7 @@ class StatsController < ApplicationController
     end
 
     def show 
+        byebug
         stats = Stat.find(params[:id])
         render json: stats, status: :ok
     end

@@ -9,6 +9,9 @@
     "clean": "rm -rf public",
     "deploy": "cp -a client/build/. public/",
     "heroku-postbuild": "npm run clean && npm run build && npm run deploy"
+  },
+  "dependencies": {
+    "react-tweet-embed": "^2.0.0",
+    "react-twitter-embed": "^4.0.4"
   }
-  
 }

@@ -11,10 +11,10 @@ function NavBar({setCurrentUser}) {
         <div className = 'navigation'> 
             <Link to = "/"> Home </Link>
             <Link to = "/statsfaceoffpage"> Stats </Link>
-            <Link to = "/versuspage"> Versus </Link>
-            <Link to = "/loginpage"> Login </Link> 
+            {/* <Link to = "/versuspage"> Versus </Link> */}
+            {/* <Link to = "/loginpage"> Login </Link>  */}
             <Link to = "/signup"> Sign Up </Link>
-            <Link to = "/schedulepage"> Schedule </Link>
+            {/* <Link to = "/schedulepage"> Schedule </Link> */}
             <Logout setCurrentUser={setCurrentUser}/>
         </div>
     </div>

@@ -15,6 +15,7 @@ code {
 
 .header {
   border: solid red;
+  
 }   
 
 .navigation {
@@ -32,4 +33,38 @@ code {
 .twitter-section {
   border-radius: 70px;
   margin-right: 10px;
+}
+
+.form-div {
+  border: solid red;
+  display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+
+.form-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.parent-stats-div {
+  
+  display:inline-table;
+}
+
+/* .grid-container {
+  padding: 5%;
+} */
+
+.card{
+  display: grid;
+  
+  width: 100%;
+  text-align: center;
+  background-color: azure;
+  border-radius: 10px;
+}
+
+.card-div{
+  
 }

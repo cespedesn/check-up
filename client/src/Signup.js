@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function Signup() {
+    const [passwordShown, setPasswordShown] = useState(false)
     const [loginData, setLoginData] = useState({
         full_name:'',
         user_name:'',
@@ -44,28 +45,33 @@ function Signup() {
         setLoginData({...loginData, [e.target.name]: e.target.value})
       }
 
+    const togglePassword = () => {
+      setPasswordShown(!passwordShown);
+    };
+
   return (
-    <div>
-      <form onSubmit={onSubmit}>
-        <label>
+    <div className='form-div'>
+      <form className= 'form-form'
+        onSubmit={onSubmit}>
+        {/* <label>
         Full Name
-        </label>
-        <input type='text' name='full_name' value={loginData.full_name} onChange={handleChange} />
+        </label> */}
+        <input type='text' name='full_name' value={loginData.full_name} onChange={handleChange} placeholder='Full name..'/>
       
-        <label>
+        {/* <label>
         Username
-        </label>
-        <input type='text' name='user_name' value={loginData.user_name} onChange={handleChange} />
+        </label> */}
+        <input type='text' name='user_name' value={loginData.user_name} onChange={handleChange} placeholder='Last name..'/>
       
-        <label>
+        {/* <label>
         Email
-        </label>
-        <input type='text' name='email' value={loginData.email} onChange={handleChange} />
+        </label> */}
+        <input type='text' name='email' value={loginData.email} onChange={handleChange} placeholder='Email..'/>
       
-        <label>
+        {/* <label>
         Password
-        </label>
-        <input type='text' name='password' value={loginData.password} onChange={handleChange} />
+        </label> */}
+        <input type={passwordShown ? "text" : "password"} name='password' value={loginData.password} onChange={handleChange} placeholder='Password...'/>
 
         <input type='submit' value='Sign Up!' />
       </form>
