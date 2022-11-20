@@ -1,5 +1,4 @@
 class StatSerializer < ActiveModel::Serializer
   attributes :id, :ast, :blk, :dreb, :fg3_pct, :fg3a, :fg3m, :fg_pct, :fga, :fgm, :ft_pct, :fta, :ftm
-  has_many :players
-  has_one :season_average
+  has_one :player
 end

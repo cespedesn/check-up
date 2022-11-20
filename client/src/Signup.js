@@ -61,7 +61,7 @@ function Signup() {
         {/* <label>
         Username
         </label> */}
-        <input type='text' name='user_name' value={loginData.user_name} onChange={handleChange} placeholder='Last name..'/>
+        <input type='text' name='user_name' value={loginData.user_name} onChange={handleChange} placeholder='Username..'/>
       
         {/* <label>
         Email

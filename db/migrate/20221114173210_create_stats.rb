@@ -14,7 +14,7 @@ class CreateStats < ActiveRecord::Migration[6.1]
       t.integer :fta
       t.integer :ftm
       t.belongs_to :player, null: false, foreign_key: true
-      t.belongs_to :season_average, null: false, foreign_key: true
+      
 
       t.timestamps
     end

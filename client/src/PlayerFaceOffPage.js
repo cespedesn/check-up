@@ -11,9 +11,13 @@ function StatsFaceOffPage({player}) {
     const [searchPlayer, setSearchPlayer] = useState('')
     const [errors, setErrors] = useState(false)
     const [stats, setStats] = useState([])
+    
+
+    // let randomPlayers =(Math.floor((Math.random() * playerList) + 1))
+   
 
     useEffect(() => {
-        fetch('/players/')
+        fetch(`/players/`)
         .then(res => {
             if(res.ok){
                 res.json().then((data) => {
@@ -23,19 +27,20 @@ function StatsFaceOffPage({player}) {
                 res.json().then(data => setErrors(data.error))
             }
         })
+        
         fetch('/stats/')
         .then(res => {
             if(res.ok){
                 res.json().then((data) => {
                     setStats(data)
-                    
+                    console.log(data)
                 })
             } else {
                 res.json().then(data => setErrors(data.error))
             }
         })
     },[])
-    console.log(stats)
+    // console.log(stats)
     
     const playersToDisplay = playerList.map((player) => {
         return (
@@ -56,12 +61,13 @@ function StatsFaceOffPage({player}) {
   return (
    <div className='parent-stats-div'>
         <PlayerSearch 
+            player={player}
             searchPlayer={searchPlayer}
             setSearchPlayer={setSearchPlayer}
             setPlayerList={setPlayerList}
         />
-        <div>{playersToDisplay}</div>
-        <Stats />
+        <div className='parent-card-div'>{playersToDisplay}</div>
+        <Stats stats={stats} setStats={setStats}/>
    </div>
   )
     

@@ -1,13 +1,12 @@
 import React from 'react'
 import {TwitterTimelineEmbed} from 'react-twitter-embed'
 
-function TwitterSection() {
-  
+function TwitterSectionTwo() {
   return (
-<section className="twitter-section">
-      <div className="twitter-embed">
+    <section className="twitter-section-two">
+      <div className="twitter-embed-two">
         <TwitterTimelineEmbed 
-          className="twitter-timeline"
+          className="twitter-timeline-two"
           sourceType="profile"
           screenName="NBA"
           options={{
@@ -25,19 +24,4 @@ function TwitterSection() {
   )
 }
 
-export default TwitterSection
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//{/* <a class="twitter-timeline" data-width="500" data-height="400" data-theme="light" href="https://twitter.com/NBA?ref_src=twsrc%5Etfw">Tweets by NBA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> */}
+export default TwitterSectionTwo

@@ -1,5 +1,7 @@
 import React from 'react'
 import Signup from './Signup'
+import TwitterSection from './TwitterSection';
+import TwitterSectionTwo from './TwitterSectionTwo';
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -75,6 +77,8 @@ function LoginPage({setCurrentUser}) {
         <input type='submit' value='Log in!' />
       </form>
       <Signup />
+      <TwitterSection />
+      <TwitterSectionTwo />
     </div>
   )
 }

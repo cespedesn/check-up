@@ -6,15 +6,16 @@ function NavBar({setCurrentUser}) {
   return (
     <div>
         <div className = 'header'>
-            Header
+            <h1>Check Up</h1>
         </div>
         <div className = 'navigation'> 
-            <Link to = "/"> Home </Link>
-            <Link to = "/statsfaceoffpage"> Stats </Link>
+            <Link to = "/"><h2>Home </h2> </Link>
+            <Link to = "/playersfaceoffpage"> <h2>Players</h2> </Link>
             {/* <Link to = "/versuspage"> Versus </Link> */}
             {/* <Link to = "/loginpage"> Login </Link>  */}
-            <Link to = "/signup"> Sign Up </Link>
-            {/* <Link to = "/schedulepage"> Schedule </Link> */}
+            {/* <Link to = "/signup"> <h2>Sign Up </h2></Link> */}
+            <Link to = "/statspage"> <h2>Stats</h2> </Link>
+            <Link to = "/schedulepage"> <h2>Schedule</h2> </Link>
             <Logout setCurrentUser={setCurrentUser}/>
         </div>
     </div>

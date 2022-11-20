@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :destroys
   resources :user_teams
   resources :stats
   resources :season_averages

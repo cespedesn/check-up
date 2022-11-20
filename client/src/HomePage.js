@@ -1,11 +1,45 @@
 import React from 'react'
-import TwitterSection from './TwitterSection';
 import { useState, useEffect } from 'react';
 import ExistingLogin from './ExistingLogin'
+import TeamTile from './TeamTile';
 
 
 function HomePage() {
   const [user, setUser] = useState(null);
+  const [teams, setTeams] = useState([])
+  const [errors, setErrors] = useState(false)
+  const [teamList, setTeamList] = useState([])
+
+  useEffect(() => {
+    fetch(`/teams/`)
+    .then(res => {
+        if(res.ok){
+            res.json().then((data) => {
+              console.log('data', data)
+                setTeamList(data)
+            })
+        } else {
+            res.json().then(data => setErrors(data.error))
+        }
+    })
+  },[])
+console.log(teamList)
+
+  const teamsToDisplay = teamList.map((team) => {
+    return (
+        <TeamTile 
+         key={team.id}
+         team={team.abbreviation}
+         city={team.city}
+         conference={team.conference}
+         division={team.division}
+         fullname={team.fullname}
+         name={team.name}
+
+        />
+    )
+})
+
 
   useEffect(() => {
     fetch("/login").then((response) => {
@@ -16,14 +50,18 @@ function HomePage() {
   }, []);
 
   if (user) {
-    return <h2>Welcome, {user.user_name}!</h2>;
-  } else
-  return (
+    return (
+
+  
     <div>
-      <TwitterSection />
+       <h1>Welcome, {user.user_name}!</h1>
+        <div className='parent-card-div'>{teamsToDisplay}</div>
       <ExistingLogin onLogin={setUser} />
     </div>
-  )
-}
 
-export default HomePage
+  )
+} else {
+  return null
+}
+}
+export default HomePage;
